@@ -6,8 +6,8 @@ void main() {
   WidgetsFlutterBinding.ensureInitialized();
 
   QiYu.registerApp(
-    appKey: '<appKey>',
-    appName: 'qiyu example',
+    appKey: '21318f50e0a15d08cd4892bdb0daa391',
+    appName: '临界',
   );
 
   runApp(const MyApp());
@@ -31,7 +31,7 @@ class _MyAppState extends State<MyApp> {
         body: Center(
           child: Column(
             children: <Widget>[
-              FlatButton(
+              FilledButton(
                 child: Text('联系客服'),
                 onPressed: () {
                   QYUserInfoParams userInfoParams = QYUserInfoParams.fromJson({
@@ -58,11 +58,11 @@ class _MyAppState extends State<MyApp> {
                       'show': true
                     },
                     'sessionTitle': '网易七鱼123',
-                    'groupId': 0,
+                    'groupId': 483726333,
                     'staffId': 0,
                     'robotId': 0,
                     'robotFirst': false,
-                    'faqTemplateId': 0,
+                    'faqTemplateId': 6654759,
                     'vipLevel': 0,
                     'showQuitQueue': true,
                     'showCloseSessionEntry': true
